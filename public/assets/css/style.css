@@ -1,0 +1,73 @@
+body {
+    background: rgb(63,56,238);
+    background: linear-gradient(345deg, rgba(63,56,238,1) 0%, rgba(255,0,226,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sushi1 {
+    position: absolute;
+    float: left;
+    top: 10px;
+}
+
+.sushi2 {
+    position: absolute;
+    float: right;
+    top: 10px;
+}
+
+.cstmJumbo {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: unset;
+}
+
+.cstmJumbotext {
+    color: white;
+}
+
+.cstmForm {
+    display: flex;
+    justify-content: center;
+}
+
+.sushisToEat, .sushisEaten {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: #ff00e2;
+    border-width: 3px;
+    border-radius: 25px;
+}
+
+
+.addSushiButton {
+    background-color: #ff00e2;
+    border-color: #ff00e2;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.addSushiButton:hover {
+    background-color: #3f38ee;
+    border-color: #3f38ee;
+}
+
+.sushiAvailable {
+    background-color: black;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sushiAvailable:hover {
+    background-color: #ff00e2;
+    border-color: #ff00e2;
+}
