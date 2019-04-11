@@ -1,4 +1,3 @@
-// ----------------------------------------------- DONE ----------------------------------------------- //
 // Import EXPRESS and EXPRESS HANDLEBARS package
 var express = require("express");
 var exphbs = require("express-handlebars");

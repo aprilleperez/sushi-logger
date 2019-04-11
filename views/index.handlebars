@@ -1,4 +1,3 @@
-{{!-- ADD IN THE DOM STUFF --}}
 <h1>Eat-Da-Soosh!</h1>
 
 
@@ -18,15 +17,13 @@
 <main>
     <div class="container">
         <div class="row">
+
             {{!-- SUSHIS NOT EATEN YET --}}
             <div class="col s6">
                 {{#each sushis}}
                 {{#unless this.devoured}}
                 <div>
-                    {{!-- <form action="/api/sushis/{{this.id}}" method="PUT"> --}}
-                    {{!-- ?_method=PUT --}}
-                        <button type="submit" class='sushiAvailable' data-id="{{this.id}}"> {{this.sushi_name}}</button>
-                    {{!-- </form> --}}
+                    <button type="submit" class='sushiAvailable' data-id="{{this.id}}"> {{this.sushi_name}}</button>
                 </div>
                 {{/unless}}
                 {{/each}}
@@ -47,7 +44,3 @@
         </div>
     </div>
 </main>
-
-
-{{!-- sushiAvailable --}}
-{{!-- sushiEaten --}}
