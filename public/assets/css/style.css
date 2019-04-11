@@ -4,9 +4,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    font-family: 'Assistant', sans-serif;
 }
 
-.sushi1 {
+/* .sushi1 {
     position: absolute;
     float: left;
     top: 10px;
@@ -16,7 +17,7 @@ body {
     position: absolute;
     float: right;
     top: 10px;
-}
+} */
 
 .cstmJumbo {
     background-color: rgba(0, 0, 0, 0.75);
