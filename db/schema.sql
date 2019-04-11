@@ -1,4 +1,5 @@
  ----------------------------------------------- DONE ----------------------------------------------- 
+DROP DATABASE IF EXISTS sushi_db;
 CREATE DATABASE sushi_db;
 USE sushi_db;
 

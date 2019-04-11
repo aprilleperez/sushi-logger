@@ -5,23 +5,29 @@ var orm = require("../config/orm.js");
 var sushi = {
     // selects all data from sushis table in db
     all: function (callback) {
-        orm.selectAll("sushis", function (modelRes) {
+        orm.all("sushis", function (modelRes) {
             callback(modelRes);
         });
     },
 
     // The variables cols and vals are arrays.  FIX THIS!!!!!!
     create: function (cols, vals, callback) {
-        orm.insertOne("cats", cols, vals, function (modelRes) {
+        orm.create("sushis", cols, vals, function (modelRes) {
             callback(modelRes);
         });
     },
 
     update: function (objColVals, condition, callback) {    // FIX THIS!!!!!!
-        orm.updateOne("cats", objColVals, condition, function (modelRes) {
+        orm.update("sushis", objColVals, condition, function (modelRes) {
             callback(modelRes);
         });
-    }
+    } //,
+
+    // delete: function (cols, value, callback) {
+    //     orm.delete("sushis", cols, value, function (modelRes) {
+    //         callback(modelRes);
+    //     });
+    // }
 };
 
 // Export the database functions for the controller
