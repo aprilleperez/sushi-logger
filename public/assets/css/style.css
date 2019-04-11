@@ -7,17 +7,21 @@ body {
     font-family: 'Assistant', sans-serif;
 }
 
-/* .sushi1 {
+.sushi1 {
     position: absolute;
-    float: left;
     top: 10px;
+    left: 10px;
+    width: 150px;
+    z-index: -10;
 }
 
 .sushi2 {
     position: absolute;
-    float: right;
     top: 10px;
-} */
+    right: 10px;
+    width: 150px;
+    z-index: -10;
+}
 
 .cstmJumbo {
     background-color: rgba(0, 0, 0, 0.75);
