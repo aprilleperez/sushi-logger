@@ -10,9 +10,5 @@ Sushi Logger is a full stack app utilizing the MVC file structure for rendering 
 ## IMPORTANT!
 Please be sure to "npm install" the listed dependencies in the package.json folder. Similarly, if this does not work, please "npm init -y" to initialize a package.json file, and npm install the following packages from the NPM website: express, express-handlebars, mysql.
 
-## Takeaways
-This app was way harder than expected. I felt that I understood Handlebars and spent the least amount of time on it, however the routing and database configuration was the most challenging part (so I would rename this assignment more towards that). This will be a good app to keep for my reference since I spent good chunks amount of time on each file and added in my notes.
-
-## Feedback
-I would definitely want to think of a more streamlined way to structure my function codes that clears up my confusion with what's happening. In terms of feedback I have for this assignment is offering walkthroughs/live demos on crucial steps like deploying to heroku. 
-Any other form of feedback would be much appreciated!
+## Project Link
+[Sushi Logger](https://ap-sushi-logger.herokuapp.com/)
